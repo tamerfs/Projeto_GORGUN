@@ -5,21 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GORGUN FICHA</title>
-    <link rel="stylesheet" href="BASE.css" type="text/css">
-    <script src= "BASE.js"></script>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script src= "script.js"></script>
 
 </head>
 <body>
     
     <header class="topo">
         <h1>As Crônicas de Gorgon entre dois mundos Oficial Website</h1>
-        <p>by Tamer Serhan</p>  
+        <p>Conto by Ulysses Cezario </br> Site by Tamer Serhan e Mateus Soares</p>  
+        <!--    inserido uma imagem-->
+
+        <img src="imagem.jpg" alt= "emblema"/> <br/> 
     </header>
   
 
      <nav class="menu">
          <ul class="navbar">
-         <h3>  Links e referencias para seu jogo  </h3>
+         <h3>  Links e referencias para seu jogo:  </h3>
              <li> <a href = "https://docs.google.com/document/d/12253DsocTso8KrRfoujooeaKFwDaPt5q/edit#"target="_blank">Manual Oficial </a></li>
              <li> <a href ="https://docs.google.com/spreadsheets/d/1kewNPX0TaLQQJ-aTtnL4ygGw3KoyqZxB/edit#gid=1915721832"target="_blank">Ficha de personagens</a></li>
              <li> <a href = "https://docs.google.com/spreadsheets/d/1Pd5AAxcoY6d2Il8Fb7EsOl9LvUCJdHpNdfFyJ5eSjqY/edit#gid=478401929"target="_blank">Alunos de Alqaamar </a></li>
@@ -27,6 +30,7 @@
              <li> <a href = "https://docs.google.com/spreadsheets/d/1Ek1P5Ameret4E7FEZo-nwOBd9W_VbPkHHvK800Skj84/edit#gid=1893610333"target="_blank">Lojas e Ferreiros </a></li>
              <li> <a href = "https://docs.google.com/spreadsheets/d/1ktkWijTVtj1T32kwauULEmP4mYzpgd5gnkMkwNPTO4s/edit#gid=0"target="_blank">Iniciativas </a></li>
              <li> <a href = "https://docs.google.com/document/d/1BguSGsTcxRPFyvzHj0P26_nKc_eMs4cGIjYyGKu3bhU/edit"target="_blank">Bestiario</a></li>
+             <li> <a href = " https://docs.google.com/document/d/1N4EOu7yaxoshLNh48rmJUnwTrPwMnsJ5/edit"target="_blank">Contos de Gorgon Livro</a></li>
              <li> <a href = "https://roll20.net/"target="_blank">Roll Dice</a></li>
              
             </ul>
@@ -50,9 +54,9 @@
          </article>
          <article class="conteudo">
             <h4> Instruções  para fazer sua ficha</h4>
-            <p>Gorgon é um mundo fantástico com uma vasta e diversificada cultura,paisagens , fauna e flora . 
-Siga os  passos a seguir  e você irá criar um personagem incrível.
-</p>
+            <p>Gorgon é um mundo fantástico com uma vasta e diversificada cultura,paisagens , fauna e flora . </p>
+            <p>Siga os  passos a seguir  e você irá criar um personagem incrível.</p>
+
 </br>
             <p>1° passo: LEIA <b>O GUIA !</b> Você irá encontrar uma pequena introdução  da história, descrições de classes e espécies.</p> 
             </br>
@@ -61,40 +65,48 @@ Siga os  passos a seguir  e você irá criar um personagem incrível.
             <p>3° passo estude o mapa e o bestiário. Isso te ajudará a chegar de maneira mais segura aos seus objetivos.</p>
             </br>
             <p>A campanha terá o sistema de caminhos  iniciais temáticos, no qual ditará a sua jornada , e irá dar base para criar seu background .</p>
-            <p>São seis caminhos iniciais temáticos  , sendo que o primeiro está estabelecido como o principal.  
-<b>Os caminhos não são obrigatórios.</b></p>
+            <p>São seis caminhos iniciais temáticos  , sendo que o primeiro está estabelecido como o principal.</p>
+            <p><b>Os caminhos não são obrigatórios.</b></p>
 
         </article>
 
 
      </section>
+     </br></br></br>
 
-     <form name="formulario de gostos" method="post"  action="">
+     <h2>FAZENDO SEU CADASTRO</h2>
+<!--server client + server side-->
+
+
+
+<form name=”processa.php” method="post"  action="">
+         
 Nome:         <input type="text"     name="nome"           required=”required”     placeholder= Digite-seu-Nome>               <br/>
 Personagem:   <input type="text"     name="personagem"     required=”required”     placeholder= Digite-o-Nome-do-personagem>   <br/>
 Idade:        <input type="text"     name="idade"                                  placeholder= Digite-a-idade>                <br/>
 Classe:       <input type="text"     name="classe"         autofocus=”autofocus”   placeholder= Digite-a-classe-do-personagem> <br/>
 Raça:         <input type="text"     name="raça"           autofocus=”autofocus”   placeholder= Digite-a-raça-do-personagem>   <br/>
 Objetivo:     <input type="text"     name="objetivo"                               placeholder= Digite-o-objetivo-resumidamente>   <br/>
-
+<br/> 
 
 <!--escolher ou um ou outro-->
 
-<div>Seu sexo é:</div>
+<div><h4>Seu sexo é:</h4></div>
 <input type= "radio" name="sexo" value="F"/>Feminino
 <input type= "radio" name="sexo" value="M"/>Masculino<br/>
 
-
+<br/> <br/> <br/>
 
 <!--caixa para escrever sobre o personagem-->
 
-<div><b>Contenos a historia do seu personagem:</b></div>
+<div><b><h4>Contenos a historia do seu personagem:</h4></b></div>
         <textarea rows=”200” cols=”700”> </textarea>  <br/>
         <input type="submit" value="Enviar"/>      <br/>
-    <br/>
+    <br/> <br/> 
+
 <!--checkbox para guildas-->
 
-<div><h5>Qual Guilda voce ira participar??</h5></div> <br/>
+<div><h4>Qual Guilda voce ira participar??</h4></div> 
 
         <input type="checkbox" name="guildas" value="Corolados" /> Corolados <br/>
         <input type="checkbox" name="guildas" value="Isildur" />A ordem de Isildur<br/>
@@ -107,30 +119,14 @@ Objetivo:     <input type="text"     name="objetivo"                            
         <input type="checkbox" name="guildas" value="Inue" /> Guerreiras Inue<br/>
         <input type="checkbox" name="guildas" value="Albatroz" /> Guarda Albatroz<br/>             
     <br/>
-    
-<!--botao com funcao--> 
-
-    <div>Aperte aqui se estiver com curiosidade:</div>
-        <Input name= "botao" type = "button" value="clique aqui" onclick="alert('ELA MATOU O GATO') " /><br/> 
-    <br/>
-    
-<!-- enviando/ upload de um arquivo-->
-
-        <div>envie um arquivo para nós, uma foto do seu personagem!</div>
-        <input name="arquivo" type="file"/><br/>
-    <br/>
-
-<!--    inserido uma imagem-->
-
-        <img src="imagem.jpg" alt= "hamster bolt"/> <br/> 
-    <br/> 
-    <br/> 
-
+   
     <!--caixa de seleção-->
 
-    <article><H3><b>SEU PERSONAGEM SERÁ DA RAÇA:</b></H3></article>
-    <select>
-           
+    <article><H4><b>Seu Personagem Sera da Raça:</b></H4></article>
+
+    <br/> 
+   
+    <select> 
         <option value="DOVAH">Dovahs</option>
         <option value="MAYOS">Mayos</option> 
         <option value="YAVU">Yavu</option> 
@@ -154,23 +150,13 @@ Objetivo:     <input type="text"     name="objetivo"                            
         <option value="Bandar">Bandar</option> 
         <option value="Kinghaarriano">Kinghaarrianos</option> 
 
-             </select><br/>   
-    <br/> 
-<!-- criar um botao com imagem-->
-<div> caso a imagem acima não carregou aperte na abaixo!</div>
-    <button type="button"> 
-       
-       <img src="https://scontent.fcgh14-1.fna.fbcdn.net/v/t1.18169-9/603976_542866739061500_1387378297_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeFO7To3rNit5eh9fB9q3HbOdE_dv7m0FaF0T92_ubQVoQO_VBYGiUAOdkgrWmdWCL6IxHJVa812Jy6fjiUGDkO6&_nc_ohc=QGPKVfZUYHMAX-Jy4Gy&_nc_ht=scontent.fcgh14-1.fna&oh=00_AT9Ki546eqklpOx47nznch9s5__gXLvcXFOMctD1NDyW_w&oe=62353A09" alt= "hamster bolt online" onclick="alert('AI QUE FEIO VC')"/>
-    </button>
-    <br/><br/>
-
-
-
-
-
+             </select>
+<br/>  <br/> <br/> 
+             
+             
 <!--escolher caixa de seleção-->
 
-    <Div>Escolha agora uma classe para ele:</Div>
+    <Div><h4>Escolha agora uma classe para ele:</h4></Div>
         
         <input list="classes" name="classe"/>
         <datalist id="classes">
@@ -186,26 +172,52 @@ Objetivo:     <input type="text"     name="objetivo"                            
             <option value="Tecelão">
             <option value="Bardo">       
         </datalist>
+        <br/><br/>
+        <br/> <br/> 
+ 
 
     
-<!--server client + server side-->
+<!-- enviando/ upload de um arquivo-->
 
-<form action=”processa.php” method=”post”></form>
+<div><h4>Envie um arquivo para nós, uma foto do seu personagem!</h4></div>
+        <input name="arquivo" type="file"/><br/>
+    <br/>
+    <br/> 
 
+        </form>
+
+    <br/> 
+    <br/> 
+<!-- criar um botao com imagem-->
+<div><h4> Veja o mapa abaixo!</h4></div>
+    <button type="button"> 
+       
+       <img src="img.jpg" alt= "MAPA DE GORGUN online" onclick="alert('OLHA QUE GRANDE BICHO')"/>
+    </button>
+    <br/><br/>
+
+    
+<!--    inserido uma imagem-->
+<div><h4> Serão criados apos o seu cadastro CARDS como esse abaixo!</h4></div>
+<img src="card.jpg" alt= "emblema"/> <br/> 
+
+<br/> <br/> 
+<br/> <br/> 
 
 <!--player de audio do blog-->
 <figure>
-    <figcaption>Listen to the T-Rex:</figcaption>
-    <audio
+    <figcaption>Musica de ambientação:</figcaption>
+<audio
         controls
         src="som1.wav">
             Your browser does not support the
             <code>audio</code> element.
-    </audio>
+</audio>
+    <br/> <br/> 
 
-    
 <!-- AUDIO da cartilha-->
     
+</figure>
 
 <audio controls=”controls”>
     <source src= "som1.wav" type= "audio/vnd.wave”" />
@@ -214,31 +226,39 @@ Objetivo:     <input type="text"     name="objetivo"                            
 </audio>
 
 
-</figure>
-
+<br/> <br/> 
 
 <?php
 
-echo "<h1>GORGONIANOS</h1>";
-
-echo "<h1>Dados a inserir dos personagens</h1>";
-
+echo "<h4>Upload dos dados dos GORGONIANOS</h4>";
 
 echo "nome: ".$_POST["nome"]."";
 
-echo "sexo: ".$_POST["sexo"]."";
+echo "personagem: ".$_POST["personagem"]."";
 
-echo "Idade: ".$_POST["idade"]."";
+echo "idade: ".$_POST["idade"]."";
 
-echo "Classe: ".$_POST["classe"]."";
+echo "classe: ".$_POST["classe"]."";
 
-echo "Raça: ".$_POST["raça"]."";
+echo "raça: ".$_POST["raça"]."";
 
-echo "Mensagem: ".$_POST["mensagem"]."";
+echo "objetivo: ".$_POST["objetivo"]."";
 
 ?>
+
+<br/> <br/> 
+
+<!--botao com funcao--> 
+
+<div><h4>Aperte aqui para concluir seu cadastro:</h4></div>
+        <Input name= "botao" type = "button" value="CONLCUIDO!" onclick="alert('EITA AINDA NAO EI FAZER ISSO') " /><br/> 
+    <br/>
 
 </body>
 <br/>
 <footer>FIM</footer>
 <br/>
+<br/> 
+<br/> 
+<br/> 
+<br/> 
