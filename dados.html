@@ -1,0 +1,85 @@
+<!DOCTYPE html> <html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GORGUN DADOS</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+    
+    <header class="cabecalho"><!--cabeçalho com titulo-->
+        <h1><b>As Crônicas de Gorgon</b> <br><i>entre dois mundos</i><br>Oficial Website</h1>
+            <p>Conto by Ulysses Cezario </br> Site by Tamer Serhan e Mateus Soares</p><br><br>
+        <div class="titulo"><h2>Lançando Sortes</h2></div>   
+    </header>
+    
+<section class ="container"><!--tabela dos dados-->   
+
+<table>
+    <tr>
+        <th> 
+            <div class = "lateral-A"><input type="number" id="entradaDado" size="2"placeholder="Insira quantos lados tem o dado"></div>
+        </th>
+        <th>
+            <div class="tema"><b><button onClick="rodaDado()" >Alea Jacta Est</button></b></div>
+        </th>
+        <th>
+            <div class = "lateral-C"><img src="dice_cmd/face1.png" alt="dado" id="face">
+        </th>
+        <th>
+            <p>
+            <div class = "lateral-D" class ="tema"><h2>Retorno das Sortes:</h2><h2 id="retornoDado"></h2></div>
+            </p>
+        </th>
+        <th>
+            <p>
+            <div class = "lateral-D" class ="tema"><h2>Acumulo das Sortes:<p id="guardoDado"></p></h2></div>
+            </p>
+        </th>     
+    <tr>
+    </tr>
+</table>
+    
+</section>
+
+
+<div class="btn-fora"><h4><button  type="submit" id="btnRefresh" onClick= "relogar()">Aperte para Limpar</button></h4></div>
+
+<script src="dice_cmd/dados.js"></script>
+
+
+
+<nav class="container"><!--navegador entre os links-->
+    <ul class="projetos"><h3>Links e referencias para seu jogo:</h3>
+        <li> <a href = "C:\xampp\htdocs\05_GITHUB\Projeto_GORGUN\conto.html"target="_blank">
+        Contos de Gordun</a></li>
+        <li> <a href = "C:\xampp\htdocs\05_GITHUB\Projeto_GORGUN\map.html"target="_blank">
+        Mapa de Gorgun</a></li>
+        <li> <a href = "C:\xampp\htdocs\05_GITHUB\Projeto_GORGUN\index.html"target="_blank">
+        Intro</a></li>
+        <li> <a href = "C:\xampp\htdocs\05_GITHUB\Projeto_GORGUN\dados.html" target="_blank">
+        Role Dados</a></li>
+        <li> <a href = "https://roll20.net/" target="_blank">
+        Roll Dice</a></li>
+        <li> <a href = "https://docs.google.com/document/d/12253DsocTso8KrRfoujooeaKFwDaPt5q/edit#"target="_blank">                             
+        Manual Oficial </a></li>
+        <li> <a href = "https://docs.google.com/spreadsheets/d/1kewNPX0TaLQQJ-aTtnL4ygGw3KoyqZxB/edit#gid=1915721832"target="_blank">
+        Ficha de personagens</a></li>
+        <li> <a href = "https://docs.google.com/spreadsheets/d/1Pd5AAxcoY6d2Il8Fb7EsOl9LvUCJdHpNdfFyJ5eSjqY/edit#gid=478401929"target="_blank">
+        Alunos de Alqaamar </a></li>
+        <li> <a href = "https://docs.google.com/spreadsheets/d/1FjUiQkFgcAS1ghU9BOVH4krq5KFbUwe5dbSLE_C3mso/edit#gid=0" target="_blank">
+        Professores Escola Alqaamar</a></li>
+        <li> <a href = "https://docs.google.com/spreadsheets/d/1Ek1P5Ameret4E7FEZo-nwOBd9W_VbPkHHvK800Skj84/edit#gid=1893610333"target="_blank">
+        Lojas e Ferreiros </a></li>
+        <li> <a href = "https://docs.google.com/spreadsheets/d/1ktkWijTVtj1T32kwauULEmP4mYzpgd5gnkMkwNPTO4s/edit#gid=0"target="_blank">
+        Iniciativas </a></li>
+        <li> <a href = "https://docs.google.com/document/d/1BguSGsTcxRPFyvzHj0P26_nKc_eMs4cGIjYyGKu3bhU/edit"target="_blank">
+        Bestiario</a></li>
+        <li> <a href = " https://docs.google.com/document/d/1N4EOu7yaxoshLNh48rmJUnwTrPwMnsJ5/edit"target="_blank">
+        Contos de Gorgon Livro</a></li>      
+    </ul>
+    </nav>
+</body>
+</html>
