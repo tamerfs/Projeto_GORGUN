@@ -108,6 +108,6 @@ function abreMapa() {
 
     var baixar = document.getElementById('baixar');
 
-    baixar.href = "C:/xampp/htdocs/05_GITHUB/Projeto_GORGUN/docs/map.pdf";
+    baixar.href = "docs/map.pdf";
     baixar.innerHTML = "Não consegue mexer? Baixe o mapa aqui";
 }
