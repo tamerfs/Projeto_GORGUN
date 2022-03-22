@@ -3,9 +3,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GORGUN FICHA</title>
+    <title>GORGUN FORJA</title>
     <link rel="stylesheet" href="style.css" type="text/css">
-    <script src= "forja.js"></script>
+    <script src= "forja rv01.js"></script>
 
 </head>
 
@@ -16,19 +16,52 @@
       <h1><b>As Crônicas de Gorgon</b> <br><i>entre dois mundos</i><br>Oficial Website</h1>
       <p>Conto by Ulysses Cezario </br> Site by Tamer Serhan e Mateus Soares</p><br><br>
       <div class="titulo">
-        <h2>CADASTRO</h2>
+        <h2>FORJA</h2>
       </div>
     </header>
   
-    <div class="perfil-foto"> <img src="img/Gorgon_Theme.png" alt="emblema" /></div>
-    <!--foto do logo-->
+    <div class="perfil-foto"> <img src="img/forja/Carvalho de ferro.png" alt="emblema" /></div><!--foto do logo-->
+    <div class="tema">
+    <button class="btn-fora" type="submit" id="btnCmd" onclick="cmd()">CLIQUE PARA ADICIONAR CARVÃO NO FUNDIDOR</button></br></br>
+    <h2 id="valorObtido"></h2></div>
+</br>
+</br>
+
+    <ul>
+        <li>Nauti [NT]</div></li>
+        <li>Carvalho de ferro [IO]</li>
+        <li>Nyngala [NY]</li>
+        <li>Hailon / Zarin [HZ]</li>
+        <li>Kolrain[KL]</li>
+        <li>Perola lunar [PL]</li>
+        <li>Ouro do Mar [NG]
+        <li>Pedra Estelar [SS]</li>
+    </ul>
   
-    <div class="btn-fora">
-      <h4><button type="submit" id="btnRefresh" onClick="refogar()">CARVÃO PARA A FORNALHA</button></h4>
-  
-      <h4><button type="submit" id="btnRefresh" onClick="relogar()">Aperte para Recomeçar</button></h4>
+    <div class="box-check"><h3>Quais metais voce pretende utulizar?</h3> 
+        <input type="checkbox" name="metais" value="Nauti"/>Nauti<br/>
+        <input type="checkbox" name="metais" value="Carvalho"/>Carvalho de Ferro<br/>
+        <input type="checkbox" name="metais" value="Nyngala"/>Nyngala<br/>
+        <input type="checkbox" name="metais" value="Zarin"/>Hailon/Zarin<br/>
+        <input type="checkbox" name="metais" value="Kolrain"/> Kolrain<br/>
+        <input type="checkbox" name="metais" value="Perola"/> Perola lunar<br/>
+        <input type="checkbox" name="metais" value="Ouro"/>Ouro do Mar<br/>
+        <input type="checkbox" name="metais" value="Estelar"/> Pedra Estelar<br/>
     </div>
+    </br> 
+    <form  src= data.php e= ”processa.php” method="post"  action="">
+        <div class= "form"><h3>Insira os dados para a ficha</h3>     
+        Força:         <input  type="number"     name="força"            required=”required”     placeholder= Digite-sua-Força>         <br/>
+        Inteligência:  <input  type="number"     name="inteligencia"     required=”required”     placeholder= Digite-sua-Inteligencia>  <br/>
+        Sopro:         <input  type="number"     name="sopro"            required=”required”     placeholder= Digite-seu-Sopro>         <br/>
+        Resultado Dado:<input  type="number"     name="classe"           required=”required”     placeholder= Digite-o-resultado-do-dad><br/>      
+        </div>    
+        <div class="tema">
+        <button class="btn-fora" type="submit" id="btnRefresh" onClick="relogar()">Aperte para Recomeçar</button>
+        </div>
   
+
+
     <nav class="container">
       <!--navegador entre os links-->
       <ul class="projetos">
