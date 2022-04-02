@@ -1,19 +1,14 @@
-
-
 <?php
 
-echo "<h4>Upload dos dados dos GORGONIANOS</h4>";
 
-echo "nome: ".$_POST["nome"]."";
+$nome = $_POST['nome'];
+$personagem =$_POST['personagem'];
+$classe = $_POST['classe'];
+$idade =$_POST['idade'];
+$raça = $_POST['raça'];
+$objetivo =$_POST['objetivo'];
+$sexo =$_POST['sexo'];
 
-echo "personagem: ".$_POST["personagem"]."";
 
-echo "idade: ".$_POST["idade"]."";
-
-echo "classe: ".$_POST["classe"]."";
-
-echo "raça: ".$_POST["raça"]."";
-
-echo "objetivo: ".$_POST["objetivo"]."";
 
 ?>
