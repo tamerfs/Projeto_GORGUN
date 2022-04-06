@@ -103,11 +103,3 @@ default: 1;
 }}
    
 console.log ("XP: " + personagem.dados.xp, "LEVEL: " + personagem.dados.level)
-
-function abreMapa() {
-
-    var baixar = document.getElementById('baixar');
-
-    baixar.href = "docs/map.pdf";
-    baixar.innerHTML = "Não consegue mexer? Baixe o mapa aqui";
-}
