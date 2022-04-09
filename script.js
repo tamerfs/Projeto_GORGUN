@@ -103,3 +103,12 @@ default: 1;
 }}
    
 console.log ("XP: " + personagem.dados.xp, "LEVEL: " + personagem.dados.level)
+
+
+function buscarDadosPersonagem(){
+    getComputedStyle;
+}
+
+function enviarDadosPersonagem(){
+    getComputedStyle;
+}
