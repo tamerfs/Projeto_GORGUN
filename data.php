@@ -1,12 +1,6 @@
 <?php
 
-
-include "servicos/servicoMensagemSessao.php";
-include "servicos/servicoCategoriaCompetidor.php"; 
-include "servicos/servicoValidacao.php";
-
-
-class  ContaBancaria
+class  jogadoresRPG
 {
         public $nome;
         public $idade;
@@ -44,16 +38,16 @@ $categorias = ['infantil', 'adolecente','adulto','idoso'];
 
         switch ($idade){
         case ($idade >= 6 && $idade <= 12) :
-            setarMensagemSucesso("O nadador ".$nome. " compete na categoria Infantil");
+            setarMensagemSucesso("O Jogador ".$nome. " compete na categoria Infantil");
             return null;  
         case ($idade >= 13 && $idade <= 18):
-            setarMensagemSucesso("O nadador ".$nome." compete na categoria Adolecente");
+            setarMensagemSucesso("O Jogador ".$nome." compete na categoria Adolecente");
             return null; 
         case ($idade >= 19 && $idade <= 65):
-            setarMensagemSucesso('O nadador '.$nome. " compete na categoria Adulto");
+            setarMensagemSucesso('O Jogador '.$nome. " compete na categoria Adulto");
             return null; 
         default: 
-            setarMensagemSucesso('O nadador '.$nome." compete na categoria Idoso");
+            setarMensagemSucesso('O Jogador '.$nome." compete na categoria Idoso");
             return null; 
         }
     }
@@ -64,7 +58,7 @@ $categorias = ['infantil', 'adolecente','adulto','idoso'];
     }
 }
 
-// serviçp mensagem Sessao
+// serviço mensagem Sessao
 
 
 session_start();
