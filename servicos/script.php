@@ -15,6 +15,6 @@ $sexo =$_POST['sexo'];
 
 defineCategoriaCompetidor($nome, $idade, $personagem, $raca, $classe, $guilda, $sexo);
 
-header('location:../apps/formulario.php');
+header('location:../apps/formulario.html');
 
 ?>

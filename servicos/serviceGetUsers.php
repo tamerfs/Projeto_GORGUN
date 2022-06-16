@@ -2,7 +2,7 @@
 
 
         
-header('location:jogadores.php');
+header('location:jogadores.html');
 
 $nome = $_POST['nome'];
 $personagem =$_POST['personagem'];
