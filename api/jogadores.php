@@ -1,5 +1,5 @@
 <?php
-   include "../servicos/conexao.php";
+   include "conexao.php";
 ?>
 
 <!DOCTYPE html> 
@@ -10,7 +10,7 @@
     <link rel="icon" type="image/x-icon" href="./img/favico.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GORGUN FICHA</title>
-    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="../style.css" type="text/css">
     
 
 </head>
@@ -99,7 +99,7 @@
 
             </br></br></br>
 
-<button class="btn-fora"> <a href = "./formulario.html">ACESSE AQUI PARA CRIAÇÂO DE SUA FICHA!</a></button>
+<button class="btn-fora"> <a href = "formulario.php">ACESSE AQUI PARA CRIAÇÂO DE SUA FICHA!</a></button>
 
 
 </body>

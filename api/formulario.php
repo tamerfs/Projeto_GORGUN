@@ -1,5 +1,5 @@
 <?php
-   include "../servicos/servicoMensagemSessao.php";
+   include "servicoMensagemSessao.php";
 ?>
 
 <!DOCTYPE html>
@@ -10,7 +10,7 @@
         <meta name="author" content="">
         <meta name="description" content="">
         <meta name="viewport" content="width-device-widht, initial-scale=1"> 
-        <link rel="stylesheet" href="style.css" type="text/css">
+        <link rel="stylesheet" href="../style.css" type="text/css">
 </head>
 
 <body>
@@ -25,7 +25,7 @@
 <nav class="container"><!--navegador entre os links-->
     <ul class="projetos"><h3>Links e referencias para seu jogo:</h3>
         <li> <a href = "../index.html">HOME</a></li>
-        <li> <a href = "jogadores.html">JOGADORES</a></li>
+        <li> <a href = "jogadores.php">JOGADORES</a></li>
         <li> <a href = "../src/docs/map.html">GORGUN MAPA</a></li>
         <li> <a href = "../apps/forja/forja.html">FORJA</a></li>
         <li> <a href = "../apps/dice/dados.html">LANCE A SORTE</a></li>
@@ -44,7 +44,7 @@
 </figure>
 
 
-<form action="../servicos/script.php" method="POST">
+<form action="script.php" method="POST">
 
 <?php
     $mensagemDeErro = obterMensagemErro();
