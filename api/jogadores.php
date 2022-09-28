@@ -23,12 +23,28 @@
     <div class="titulo"><h2>CONSULTA DE PLAYERS</h2></div>   
 </header>
     
+<<<<<<< HEAD
 <nav><!--navegador entre os links-->
     <ul class="projetos"><h3>Links e referencias para seu jogo:</h3>
         <li> <a href = "../index.html">HOME</a></li><br>
         <li> <a href = "formulario.php">CRIAÇÃO DE FICHA</a></li>
     </ul>
 </nav>
+=======
+<nav class="container"><!--navegador entre os links-->
+    <ul class="projetos"><h3>Links e referencias para seu jogo:</h3>
+        <li> <a href = "../index.html">HOME</a></li>
+        <li> <a href = "docs/map.html">GORGUN MAPA</a></li>
+        <li> <a href = "forja/forja.html">FORJA</a></li>
+        <li> <a href = "dice/dados.html">LANCE A SORTE</a></li>
+        <li> <a href = "gandah/ganda.html">GANDHA</a></li>
+        <li> <a href = "loja/loja.html">LOJAS  </a></li>
+        <li> <a href = "books/books.html">Contos de Gordun</a></li>
+        <li> <a href = "books/books.html">Biblioteca de Alcamar</a></li>
+        <li> <a href = "books/bestiario.html">Bestiario de Alcamar</a></li>   
+    </ul>
+    </nav>
+>>>>>>> 1bc03cd03f9d3eb6921af722390d793c375485fc
     
 <section><!--area para consulta-->
 <div class=" projetos">  
@@ -90,5 +106,13 @@
 </div>
 </section>
 
+<<<<<<< HEAD
+=======
+            </br></br></br>
+
+<button class="btn-fora"> <a href = "formulario.php">ACESSE AQUI PARA CRIAÇÂO DE SUA FICHA!</a></button>
+
+
+>>>>>>> 1bc03cd03f9d3eb6921af722390d793c375485fc
 </body>
 </html>

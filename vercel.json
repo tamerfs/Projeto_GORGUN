@@ -1,7 +1,16 @@
 {
+<<<<<<< HEAD
     "functions": {
       "api/*.php": {
         "runtime": "vercel-php@0.4.0"
       }
     }
   }
+=======
+  "functions": {
+    "api/*.php": {
+      "runtime": "vercel-php@0.5.1"
+    }
+  }
+}
+>>>>>>> 1bc03cd03f9d3eb6921af722390d793c375485fc

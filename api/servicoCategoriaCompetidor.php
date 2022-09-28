@@ -32,4 +32,7 @@ function defineCategoriaCompetidor (string $nome, string $idade, string $persona
         return obterMensagemErro();
     }
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 1bc03cd03f9d3eb6921af722390d793c375485fc

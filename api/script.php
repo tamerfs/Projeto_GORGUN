@@ -17,6 +17,9 @@ defineCategoriaCompetidor($nome, $idade, $personagem, $raca, $classe, $guilda, $
 
 header('location:formulario.php');
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 1bc03cd03f9d3eb6921af722390d793c375485fc
 ?>

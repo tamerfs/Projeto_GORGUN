@@ -1,7 +1,10 @@
 <?php
 
+<<<<<<< HEAD
 // mysqly
 
+=======
+>>>>>>> 1bc03cd03f9d3eb6921af722390d793c375485fc
 $hostname = "localhost"; // endereço do meu host seja local ou web exemplo mysql.hostgator.com
 $db = "gorgun_sql"; // nome do banco de dados criado/ tabela 
 $user = "root"; // para localhost e wamp usamos root padrão e senha em branco
@@ -16,6 +19,7 @@ if ($mysqli -> connect_errno){
 } else
     echo $frase;
 
+<<<<<<< HEAD
   
   // dados da page https://www.elephantsql.com/docs/php.html
 
@@ -40,3 +44,7 @@ if ($mysqli -> connect_errno){
 // echo $row[0] . "\n";
 // // Closing connection
 // pg_close($con);
+=======
+    
+ 
+>>>>>>> 1bc03cd03f9d3eb6921af722390d793c375485fc
